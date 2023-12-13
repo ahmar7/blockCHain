@@ -1,0 +1,14 @@
+ 
+
+.for-mbl {
+  display: none !important;
+}
+
+@media (max-width: 1024px) {
+  .for-mbl {
+    display: flex !important;
+  }
+  .for-desk {
+    display: none !important;
+  }
+}
